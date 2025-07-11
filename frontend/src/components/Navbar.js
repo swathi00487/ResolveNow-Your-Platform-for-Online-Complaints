@@ -18,7 +18,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
-        <Link className="navbar-brand" to="/dashboard">
+        <Link className="navbar-brand d-flex align-items-center" to="/dashboard">
+          <img src="/logo.png" alt="Logo" style={{ height: '36px', marginRight: '10px' }} />
           Complaint Registry
         </Link>
         
